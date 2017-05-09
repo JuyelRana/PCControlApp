@@ -9,12 +9,8 @@
     tools:context="org.careerop.pccontrolapp.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <GridView
-        android:id="@+id/gridView"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:numColumns="3"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_height="match_parent" />
 </RelativeLayout>
